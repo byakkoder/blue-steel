@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Byakkoder.BlueSteel.SharedKernel\Byakkoder.BlueSteel.SharedKernel.csproj" />
-  </ItemGroup>
-
 </Project>

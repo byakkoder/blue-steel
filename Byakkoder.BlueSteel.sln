@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Domain.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Application.UnitTests", "tests\Byakkoder.BlueSteel.Application.UnitTests\Byakkoder.BlueSteel.Application.UnitTests.csproj", "{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.SharedKernel", "src\Byakkoder.BlueSteel.SharedKernel\Byakkoder.BlueSteel.SharedKernel.csproj", "{56C67AF5-08E0-4A2B-97BF-C54F933989A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,7 @@ Global
 		{1E950A0F-664D-4573-B9F6-C137310F08F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,6 +52,10 @@ Global
 		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C67AF5-08E0-4A2B-97BF-C54F933989A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C67AF5-08E0-4A2B-97BF-C54F933989A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C67AF5-08E0-4A2B-97BF-C54F933989A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C67AF5-08E0-4A2B-97BF-C54F933989A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +67,7 @@ Global
 		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C} = {8AF99458-BECB-4C7B-80A3-B8A70913CA1F}
 		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299} = {8AF99458-BECB-4C7B-80A3-B8A70913CA1F}
+		{56C67AF5-08E0-4A2B-97BF-C54F933989A4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93F42F11-FFC7-454D-9F4E-0434EAA6C7F6}
