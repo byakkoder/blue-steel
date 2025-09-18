@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8AF99458-BECB-4C7B-80A3-B8A70913CA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Domain", "src\Byakkoder.BlueSteel.Domain\Byakkoder.BlueSteel.Domain.csproj", "{AAC8B108-9B61-4190-0C95-CEC84BEC6877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Application", "src\Byakkoder.BlueSteel.Application\Byakkoder.BlueSteel.Application.csproj", "{0AF4807C-11E3-4D01-97E0-4AEDF061479A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Infrastructure", "src\Byakkoder.BlueSteel.Infrastructure\Byakkoder.BlueSteel.Infrastructure.csproj", "{1E950A0F-664D-4573-B9F6-C137310F08F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.ServerApp", "src\Byakkoder.BlueSteel.ServerApp\Byakkoder.BlueSteel.ServerApp.csproj", "{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Domain.UnitTests", "tests\Byakkoder.BlueSteel.Domain.UnitTests\Byakkoder.BlueSteel.Domain.UnitTests.csproj", "{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byakkoder.BlueSteel.Application.UnitTests", "tests\Byakkoder.BlueSteel.Application.UnitTests\Byakkoder.BlueSteel.Application.UnitTests.csproj", "{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC8B108-9B61-4190-0C95-CEC84BEC6877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC8B108-9B61-4190-0C95-CEC84BEC6877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC8B108-9B61-4190-0C95-CEC84BEC6877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC8B108-9B61-4190-0C95-CEC84BEC6877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF4807C-11E3-4D01-97E0-4AEDF061479A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF4807C-11E3-4D01-97E0-4AEDF061479A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF4807C-11E3-4D01-97E0-4AEDF061479A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF4807C-11E3-4D01-97E0-4AEDF061479A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E950A0F-664D-4573-B9F6-C137310F08F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E950A0F-664D-4573-B9F6-C137310F08F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E950A0F-664D-4573-B9F6-C137310F08F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E950A0F-664D-4573-B9F6-C137310F08F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAC8B108-9B61-4190-0C95-CEC84BEC6877} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0AF4807C-11E3-4D01-97E0-4AEDF061479A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1E950A0F-664D-4573-B9F6-C137310F08F3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5CA82BA2-5ACA-4608-8E09-BB2A0E73F731} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0EE73A38-C0F9-4F0F-8AE5-5D2E042AA92C} = {8AF99458-BECB-4C7B-80A3-B8A70913CA1F}
+		{6CC6BF51-DC3C-4A2C-8F76-FD5FAC042299} = {8AF99458-BECB-4C7B-80A3-B8A70913CA1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93F42F11-FFC7-454D-9F4E-0434EAA6C7F6}
+	EndGlobalSection
+EndGlobal
